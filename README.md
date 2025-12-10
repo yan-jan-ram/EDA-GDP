@@ -99,6 +99,14 @@ EDA-GDP/
 - Countries with the most significant long-term GDP growth include:
 - China, India, Vietnam, Bangladesh, Poland, Estonia, and others.
 
+## 🛠 Tech Stack
+| Component | Tools |
+|------|---------|
+| Language | Python |
+|||
+|||
+|||
+
 ## 📘 About the Dataset
 
 - Source: Our World in Data – GDP per capita (constant 2021 international-$)
