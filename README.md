@@ -1,69 +1,107 @@
-# EDA-GDP
+<!-- PROJECT BADGES -->
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Language](https://img.shields.io/badge/Built%20With-Python-blue?logo=python)
+![Notebook](https://img.shields.io/badge/Environment-Jupyter-orange?logo=jupyter)
+![Libraries](https://img.shields.io/badge/Libraries-Pandas%20%7C%20NumPy%20%7C%20Matplotlib%20%7C%20Seaborn-purple)
+![Dataset](https://img.shields.io/badge/Source-Our%20World%20In%20Data-red)
 
-# GDP per capita - Data package
+# 🌍 EDA – Global GDP Analysis (1990–2023)
 
-This data package contains the data that powers the chart ["GDP per capita"](https://ourworldindata.org/grapher/gdp-per-capita-worldbank?v=1&csvType=full&useColumnShortNames=false) on the Our World in Data website. It was downloaded on March 12, 2025.
+A complete **Exploratory Data Analysis (EDA)** of world GDP per capita data sourced from **Our World in Data (World Bank 2025 update)**.  
+This analysis uncovers global economic patterns, long-term income trends, high-growth regions, and cross-country comparisons over the last three decades.
 
-### Active Filters
+This project demonstrates strong competence in:  
+✔ Data cleaning  
+✔ Exploratory analysis  
+✔ Visualization  
+✔ Insight extraction  
+✔ Python (Pandas, NumPy, Matplotlib, Seaborn)
 
-A filtered subset of the full data was downloaded. The following filters were applied:
+---
 
-## CSV Structure
+## 📌 Project Overview
 
-The high level structure of the CSV file is that each row is an observation for an entity (usually a country or region) and a timepoint (usually a year).
+The objective of this project is to analyze how **GDP per capita** has changed around the world from **1990 to 2023**, and identify:
 
-The first two columns in the CSV file are "Entity" and "Code". "Entity" is the name of the entity (e.g. "United States"). "Code" is the OWID internal entity code that we use if the entity is a country or region. For normal countries, this is the same as the [iso alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) code of the entity (e.g. "USA") - for non-standard countries like historical countries these are custom codes.
+- Countries with rapid economic growth  
+- Stagnant or declining economies  
+- Comparative GDP trends across continents  
+- Global inequality patterns  
+- Volatility in developing regions  
 
-The third column is either "Year" or "Day". If the data is annual, this is "Year" and contains only the year as an integer. If the column is "Day", the column contains a date string in the form "YYYY-MM-DD".
+This is a pure **Python analytics project**, executed in **Jupyter Notebook**.
 
-The final column is the data column, which is the time series that powers the chart. If the CSV data is downloaded using the "full data" option, then the column corresponds to the time series below. If the CSV data is downloaded using the "only selected data visible in the chart" option then the data column is transformed depending on the chart type and thus the association with the time series might not be as straightforward.
+---
 
-## Metadata.json structure
+## 🧠 Key Skills Demonstrated
 
-The .metadata.json file contains metadata about the data package. The "charts" key contains information to recreate the chart, like the title, subtitle etc.. The "columns" key contains information about each of the columns in the csv, like the unit, timespan covered, citation for the data etc..
+### ✔ Data Cleaning & Preparation  
+- Handling missing values  
+- Filtering by selected regions/countries  
+- Fixing inconsistent formats  
+- Loading and merging CSV + JSON metadata  
 
-## About the data
+### ✔ Exploratory Data Analysis  
+- Trend analysis over multiple decades  
+- Top/bottom country comparisons  
+- Year-over-year growth patterns  
+- Economic variance & volatility analysis  
 
-Our World in Data is almost never the original producer of the data - almost all of the data we use has been compiled by others. If you want to re-use data, it is your responsibility to ensure that you adhere to the sources' license and to credit them correctly. Please note that a single time series may have more than one source - e.g. when we stich together data from different time periods by different producers or when we calculate per capita metrics using population data from a second source.
+### ✔ Visualizations (Matplotlib + Seaborn)  
+- Global GDP trend line charts  
+- Top-10 GDP per capita countries  
+- Distribution & histogram plots  
+- Correlation heatmaps  
+- Multi-country comparison time-series graphs  
 
-## Detailed information about the data
+---
 
+## 📊 Sample Visuals (Add screenshots into /plots folder)
 
-## GDP per capita – In constant international-$ – World Bank
-Average economic output per person in a country or region per year. This data is adjusted for inflation and for differences in living costs between countries.
-Last updated: January 24, 2025  
-Next update: January 2026  
-Date range: 1990–2023  
-Unit: international-$ in 2021 prices  
+```md
+![GDP Trend](plots/gdp_trend.png)
+![Top 10 Countries](plots/top10_countries.png)
+![GDP Distribution](plots/global_distribution.png)
+```
 
+## 📂 Project Structure
+```DAX
+EDA-GDP/
+│
+├── data/
+│   ├── gdp_per_capita.csv        # Main dataset
+│   └── metadata.json             # Source metadata
+│
+├── notebooks/
+│   └── EDA_GDP.ipynb             # Main analysis
+│
+├── plots/
+│   ├── gdp_trend.png
+│   ├── top10_countries.png
+│   └── global_distribution.png
+│
+└── README.md
+```
 
-### How to cite this data
+## 🔍 Insights & Findings
+### 🌎 Global Trends
 
-#### In-line citation
-If you have limited space (e.g. in data visualizations), you can use this abbreviated in-line citation:  
-Data compiled from multiple sources by World Bank (2025) – with minor processing by Our World in Data
+- GDP per capita has steadily increased worldwide, with especially strong growth in East Asia.
+- High-income countries like Luxembourg, Switzerland, Norway, Singapore consistently top the global ranking.
 
-#### Full citation
-Data compiled from multiple sources by World Bank (2025) – with minor processing by Our World in Data. “GDP per capita – World Bank – In constant international-$” [dataset]. Data compiled from multiple sources by World Bank, “World Development Indicators” [original data].
-Source: Data compiled from multiple sources by World Bank (2025) – with minor processing by Our World In Data
+### 📉 Countries with Declining or Volatile GDP
 
-### What you should know about this data
-* Gross domestic product (GDP) is a measure of the total value added from the production of goods and services in a country or region each year. GDP per capita is GDP divided by population.
-* This GDP per capita indicator provides information on economic growth and income levels from 1990.
-* This data is adjusted for inflation and for differences in living costs between countries.
-* This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2021 prices.
-* For GDP per capita estimates in the long run, explore the [Maddison Project Database's indicator](https://ourworldindata.org/grapher/gdp-per-capita-maddison).
+- Conflict-affected and low-income regions show inconsistent or negative trends.
+- Some economies exhibited sharp volatility due to political or economic crises.
 
-### How is this data described by its producer - Data compiled from multiple sources by World Bank (2025)?
-GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the country plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2021 international dollars.
+### 📈 High-Growth Economies
 
-Statistical concept and methodology: For the concept and methodology of PPP, please refer to the International Comparison Program (ICP)’s website (https://www.worldbank.org/en/programs/icp).
+- Countries with the most significant long-term GDP growth include:
+- China, India, Vietnam, Bangladesh, Poland, Estonia, and others.
 
-### Source
+## 📘 About the Dataset
 
-#### Data compiled from multiple sources by World Bank – World Development Indicators
-Retrieved on: 2025-01-24  
-Retrieved from: https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators  
-
-
-    
+- Source: Our World in Data – GDP per capita (constant 2021 international-$)
+- Dataset Range: 1990–2023
+- Unit: International dollars (PPP-adjusted)
+- Columns: Entity, Code, Year, GDP per capita
