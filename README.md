@@ -56,7 +56,7 @@ This is a pure **Python analytics project**, executed in **Jupyter Notebook**.
 
 ---
 
-## 📊 Sample Visuals (Add screenshots into /plots folder)
+## 📊 Sample Visuals
 
 ```md
 ![GDP Trend](plots/gdp_trend.png)
