@@ -103,9 +103,10 @@ EDA-GDP/
 | Component | Tools |
 |------|---------|
 | Language | Python |
-|||
-|||
-|||
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Environment | Jupyter Notebook |
+| Dataset | Our World in Data – GDP per capita (World Bank 2025 update) |
 
 ## 📘 About the Dataset
 
