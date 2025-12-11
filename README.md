@@ -114,3 +114,9 @@ EDA-GDP/
 - Dataset Range: 1990–2023
 - Unit: International dollars (PPP-adjusted)
 - Columns: Entity, Code, Year, GDP per capita
+
+## Source
+
+### Data compiled from multiple sources by World Bank – World Development Indicators
+Retrieved on: 2025-01-24  
+Retrieved from: https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators  
