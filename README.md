@@ -90,13 +90,13 @@ This is a pure **Python analytics project**, executed in **Jupyter Notebook**.
 EDA-GDP/
 │
 ├── data/
-│   ├── gdp_per_capita.csv        # Main dataset
-│   └── metadata.json             # Source metadata
+│   ├── gdp_per_capita.csv    
+│   └── metadata.json            
 │
 ├── notebooks/
-│   └── EDA_GDP.ipynb             # Main analysis
+│   └── EDA_GDP.ipynb    
 │
-├── plots/
+├── screenshots/
 │   ├── gdp_trend.png
 │   ├── top10_countries.png
 │   └── global_distribution.png
