@@ -56,6 +56,39 @@ This is a pure **Python analytics project**, executed in **Jupyter Notebook**.
 
 ---
 
+## 🔍 Insights & Findings
+### 🌎 Global Trends
+
+- GDP per capita has steadily increased worldwide, with especially strong growth in East Asia.
+- High-income countries like Luxembourg, Switzerland, Norway, Singapore consistently top the global ranking.
+
+### 📉 Countries with Declining or Volatile GDP
+
+- Conflict-affected and low-income regions show inconsistent or negative trends.
+- Some economies exhibited sharp volatility due to political or economic crises.
+
+### 📈 High-Growth Economies
+
+- Countries with the most significant long-term GDP growth include:
+- China, India, Vietnam, Bangladesh, Poland, Estonia, and others.
+
+### Key findings from the analysis:
+
+- High-income countries consistently dominate GDP per capita.
+- China shows explosive growth from 2000 onward.
+- Lower-income nations grow steadily but slowly.
+- Global GDP per capita trend shows resilience despite 2008 & 2020 dips.
+- Outliers represent microstates and petroleum-dependent economies.
+
+## 🛠 Tech Stack
+| Component | Tools |
+|------|---------|
+| Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Environment | Jupyter Notebook |
+| Dataset | Our World in Data – GDP per capita (World Bank 2025 update) |
+
 ## 📊 Sample Visuals
 
 ### **1. Correlation Matrix (Year vs GDP)**
@@ -103,39 +136,6 @@ EDA-GDP/
 │
 └── README.md
 ```
-
-## 🔍 Insights & Findings
-### 🌎 Global Trends
-
-- GDP per capita has steadily increased worldwide, with especially strong growth in East Asia.
-- High-income countries like Luxembourg, Switzerland, Norway, Singapore consistently top the global ranking.
-
-### 📉 Countries with Declining or Volatile GDP
-
-- Conflict-affected and low-income regions show inconsistent or negative trends.
-- Some economies exhibited sharp volatility due to political or economic crises.
-
-### 📈 High-Growth Economies
-
-- Countries with the most significant long-term GDP growth include:
-- China, India, Vietnam, Bangladesh, Poland, Estonia, and others.
-
-### Key findings from the analysis:
-
-- High-income countries consistently dominate GDP per capita.
-- China shows explosive growth from 2000 onward.
-- Lower-income nations grow steadily but slowly.
-- Global GDP per capita trend shows resilience despite 2008 & 2020 dips.
-- Outliers represent microstates and petroleum-dependent economies.
-
-## 🛠 Tech Stack
-| Component | Tools |
-|------|---------|
-| Language | Python |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Environment | Jupyter Notebook |
-| Dataset | Our World in Data – GDP per capita (World Bank 2025 update) |
 
 ## 📘 About the Dataset
 
