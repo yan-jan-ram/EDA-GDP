@@ -72,7 +72,7 @@ This is a pure **Python analytics project**, executed in **Jupyter Notebook**.
 - Countries with the most significant long-term GDP growth include:
 - China, India, Vietnam, Bangladesh, Poland, Estonia, and others.
 
-### Key findings from the analysis:
+### Key takeaways from the analysis:
 
 - High-income countries consistently dominate GDP per capita.
 - China shows explosive growth from 2000 onward.
