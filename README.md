@@ -58,11 +58,32 @@ This is a pure **Python analytics project**, executed in **Jupyter Notebook**.
 
 ## 📊 Sample Visuals
 
-```md
-![GDP Trend](plots/gdp_trend.png)
-![Top 10 Countries](plots/top10_countries.png)
-![GDP Distribution](plots/global_distribution.png)
-```
+### **1. Correlation Matrix (Year vs GDP)**
+![Correlation Heatmap](screenshots/Correlation_Matrix_Heatmap.png)
+
+### **2. GDP per Capita – Distribution**
+![Distribution](screenshots/distribution_of_GDP_per_Capita.png)
+
+### **3. GDP per Capita – Boxplot (Outlier Detection)**
+![Box Plot](screenshots/GDP_per_Capita_Box_Plot.png)
+
+### **4. GDP Trends by Income Group**
+![Income Group Trend](screenshots/GDP_per_Capita_by_Income_Group.png)
+
+### **5. GDP Over Time – Selected Countries**
+![Top Countries](screenshots/GDP_per_Capita_for_Selected_Countries.png)
+
+### **6. Global Trend with Outliers**
+![Global Trend](screenshots/GDP_Trend_Over_Time.png)
+
+### **7. Records per Year**
+![Entries per Year](screenshots/Number_of_Entries_per_Year.png)
+
+### **8. Outliers Over Time**
+![Outliers](screenshots/outliers.png)
+
+### **9. Year-over-Year GDP Growth**
+![YoY Growth](screenshots/YoY_GDP_Growth_Rate.png)
 
 ## 📂 Project Structure
 ```DAX
