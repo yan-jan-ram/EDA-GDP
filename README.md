@@ -120,6 +120,14 @@ EDA-GDP/
 - Countries with the most significant long-term GDP growth include:
 - China, India, Vietnam, Bangladesh, Poland, Estonia, and others.
 
+### Key findings from the analysis:
+
+- High-income countries consistently dominate GDP per capita.
+- China shows explosive growth from 2000 onward.
+- Lower-income nations grow steadily but slowly.
+- Global GDP per capita trend shows resilience despite 2008 & 2020 dips.
+- Outliers represent microstates and petroleum-dependent economies.
+
 ## 🛠 Tech Stack
 | Component | Tools |
 |------|---------|
